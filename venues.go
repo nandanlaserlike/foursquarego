@@ -93,6 +93,8 @@ type Venue struct {
 	HasPerk          bool         `json:"hasPerk"`
 	Attributes       Attributes   `json:"attributes"`
 	BestPhoto        Photo        `json:"bestPhoto"`
+
+	VenueRatingBlacklisted bool `json:"venueRatingBlacklisted"`
 }
 
 // Contact are details to contact this venue. Can contain all or none.
